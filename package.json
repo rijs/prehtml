@@ -1,5 +1,5 @@
 {
-  "name": "prehtml",
+  "name": "rijs.prehtml",
   "version": "0.0.0",
   "main": "dist",
   "author": "Pedram Emrouznejad (https://github.com/pemrouz)",
@@ -18,15 +18,14 @@
     "babel": "^4.6.3",
     "browserify": "^9.0.3",
     "chai": "^2.3.0",
-    "components": "git://github.com/rijs/components",
-    "core": "git://github.com/rijs/core",
-    "html": "git://github.com/rijs/html",
-    "fn": "git://github.com/rijs/fn",
+    "rijs.components": "git://github.com/rijs/components",
+    "rijs.core": "git://github.com/rijs/core",
+    "rijs.html": "git://github.com/rijs/html",
+    "rijs.fn": "git://github.com/rijs/fn",
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.13",
     "mocha": "^2.2.4",
     "mocha-lcov-reporter": "0.0.2",
-    "components": "git://github.com/rijs/components",
     "uglify-js": "^2.4.16"
   },
   "dependencies": {
