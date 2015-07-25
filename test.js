@@ -1,7 +1,7 @@
 var expect = require('chai').expect
   , components = require('rijs.components')
   , noop = require('utilise/noop')
-  , prehtml = require('../')
+  , prehtml = require('./')
   , core = require('rijs.core')
   , html = require('rijs.html')
   , fn = require('rijs.fn')
