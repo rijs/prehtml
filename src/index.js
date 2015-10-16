@@ -16,7 +16,7 @@ export default function prehtml(ripple){
     div = document.createElement('div')
     div.innerHTML = ripple(html)
     ;(el.shadowRoot || el).innerHTML = div.innerHTML
-    render.apply(this, arguments)
+    return render(el)
   }
 
   return ripple

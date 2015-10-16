@@ -24,7 +24,7 @@ function prehtml(ripple) {
     if (html && !ripple(html)) return;
     div = document.createElement("div");
     div.innerHTML = ripple(html);(el.shadowRoot || el).innerHTML = div.innerHTML;
-    render.apply(this, arguments);
+    return render(el);
   };
 
   return ripple;
