@@ -34,7 +34,5 @@ import attr from 'utilise/attr'
 import wrap from 'utilise/wrap'
 import all from 'utilise/all'
 import key from 'utilise/key'
-import log from 'utilise/log'
-import err from 'utilise/err'
-log = log('[ri/prehtml]')
-err = err('[ri/prehtml]')
+var log = require('utilise/log')('[ri/prehtml]')
+  , err = require('utilise/err')('[ri/prehtml]')

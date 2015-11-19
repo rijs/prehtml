@@ -1,10 +1,10 @@
 var expect = require('chai').expect
-  , components = require('rijs.components')
   , noop = require('utilise/noop')
-  , prehtml = require('./')
-  , core = require('rijs.core')
-  , html = require('rijs.html')
-  , fn = require('rijs.fn')
+  , components = require('rijs.components').default
+  , core = require('rijs.core').default
+  , html = require('rijs.html').default
+  , fn = require('rijs.fn').default
+  , prehtml = require('./').default
   , container = document.createElement('div')
   , el
   
