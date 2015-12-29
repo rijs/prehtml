@@ -32,7 +32,7 @@ describe('HTML Templates', function(){
 
     ripple('foo.html', '<li>Hi!</li>')
     ripple('html-2', function(){ result = true })
-    ripple.draw()
+    ripple.render(el)
 
     expect(result).to.be.ok
     expect(el.innerHTML).to.equal('<li>Hi!</li>')
@@ -60,7 +60,7 @@ describe('HTML Templates', function(){
       , result
 
     ripple('html-1', function(){ result = true })
-    ripple.draw()
+    ripple.render(container.children[0])
 
     expect(result).to.be.ok
   })
@@ -70,7 +70,7 @@ describe('HTML Templates', function(){
       , result
 
     ripple('html-2', function(){ result = true })
-    ripple.draw()
+    ripple.render(el)
 
     expect(result).to.not.be.ok
   })
